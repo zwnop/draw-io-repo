@@ -10,17 +10,16 @@
         <mxCell id="BCLAxjB97PcvfuDEVSwv-1" value="AI识别涉“fq”短彩信" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BCLAxjB97PcvfuDEVSwv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BCLAxjB97PcvfuDEVSwv-3" target="BCLAxjB97PcvfuDEVSwv-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="BCLAxjB97PcvfuDEVSwv-3" value="导入采集到的原始短彩信数据" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="-60" width="120" height="80" as="geometry" />
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BCLAxjB97PcvfuDEVSwv-43" target="BCLAxjB97PcvfuDEVSwv-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="20" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="BCLAxjB97PcvfuDEVSwv-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BCLAxjB97PcvfuDEVSwv-7" target="BCLAxjB97PcvfuDEVSwv-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BCLAxjB97PcvfuDEVSwv-7" value="爬取网址对应的页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="436" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BCLAxjB97PcvfuDEVSwv-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -29,10 +28,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BCLAxjB97PcvfuDEVSwv-10" value="外网" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="470" width="60" height="30" as="geometry" />
+          <mxGeometry x="50" y="431" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BCLAxjB97PcvfuDEVSwv-11" value="内网" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="130" width="60" height="30" as="geometry" />
+          <mxGeometry x="50" y="50" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BCLAxjB97PcvfuDEVSwv-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BCLAxjB97PcvfuDEVSwv-13" target="BCLAxjB97PcvfuDEVSwv-16">
           <mxGeometry relative="1" as="geometry" />
@@ -49,7 +48,7 @@
         <mxCell id="BCLAxjB97PcvfuDEVSwv-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BCLAxjB97PcvfuDEVSwv-20" target="BCLAxjB97PcvfuDEVSwv-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BCLAxjB97PcvfuDEVSwv-23" value="刻录脱敏后的数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BCLAxjB97PcvfuDEVSwv-22">
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-23" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;摆渡脱敏后的数据&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BCLAxjB97PcvfuDEVSwv-22">
           <mxGeometry x="0.1" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -57,8 +56,52 @@
         <mxCell id="BCLAxjB97PcvfuDEVSwv-20" value="导出识别结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BCLAxjB97PcvfuDEVSwv-24" value="导出爬取页面的截图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="570" width="120" height="60" as="geometry" />
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BCLAxjB97PcvfuDEVSwv-24" target="BCLAxjB97PcvfuDEVSwv-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-24" value="将网址与页面截图进行匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="526" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BCLAxjB97PcvfuDEVSwv-26" target="BCLAxjB97PcvfuDEVSwv-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-26" value="整合链接与截图等信息生成excel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="526" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BCLAxjB97PcvfuDEVSwv-28" target="BCLAxjB97PcvfuDEVSwv-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BCLAxjB97PcvfuDEVSwv-28" target="BCLAxjB97PcvfuDEVSwv-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-28" value="录入爬取结果数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BCLAxjB97PcvfuDEVSwv-31" target="BCLAxjB97PcvfuDEVSwv-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-36" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;摆渡识别结果数据&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BCLAxjB97PcvfuDEVSwv-33">
+          <mxGeometry x="-0.1765" relative="1" as="geometry">
+            <mxPoint y="37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-31" value="导出excel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BCLAxjB97PcvfuDEVSwv-34" target="BCLAxjB97PcvfuDEVSwv-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-34" value="通过MQ发送爬取结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-39" value="定期对爬取结果进行统计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-43" value="导入采集到的原始短彩信数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-44" value="流程结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-40" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
