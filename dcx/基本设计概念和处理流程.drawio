@@ -74,8 +74,8 @@
         <mxCell id="BCLAxjB97PcvfuDEVSwv-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="BCLAxjB97PcvfuDEVSwv-28" target="BCLAxjB97PcvfuDEVSwv-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BCLAxjB97PcvfuDEVSwv-28" value="录入爬取结果数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="400" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-28" value="录入“翻墙”网址数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BCLAxjB97PcvfuDEVSwv-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="BCLAxjB97PcvfuDEVSwv-31" target="BCLAxjB97PcvfuDEVSwv-28">
           <mxGeometry relative="1" as="geometry" />
@@ -100,16 +100,13 @@
           <mxGeometry x="400" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BCLAxjB97PcvfuDEVSwv-39" value="定期对爬取结果进行统计" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="550" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BCLAxjB97PcvfuDEVSwv-43" value="导入采集到的原始短彩信数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="230" y="-40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BCLAxjB97PcvfuDEVSwv-44" value="流程结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="400" y="-40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BCLAxjB97PcvfuDEVSwv-46" value="录入爬取结果数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="620" y="110" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
