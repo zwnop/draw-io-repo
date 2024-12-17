@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="第 1 页" id="5tyzeUka2aD0NBB0maGh">
+    <mxGraphModel dx="1434" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="m0ehVY5J23Boe-fRRiXK-31" target="m0ehVY5J23Boe-fRRiXK-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-31" value="模型识别涉“翻墙”短彩信" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="230" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="m0ehVY5J23Boe-fRRiXK-58" target="m0ehVY5J23Boe-fRRiXK-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="20" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="m0ehVY5J23Boe-fRRiXK-34" target="m0ehVY5J23Boe-fRRiXK-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-34" value="爬取网址对应的页面" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="230" y="436" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-35" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=14;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="410" as="sourcePoint" />
+            <mxPoint x="680" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-36" value="外网" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="431" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-37" value="内网" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="-30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="m0ehVY5J23Boe-fRRiXK-39" target="m0ehVY5J23Boe-fRRiXK-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-39" value="抽取内容中的链接、工具名称等信息，并统计数量" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="m0ehVY5J23Boe-fRRiXK-41" target="m0ehVY5J23Boe-fRRiXK-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-41" value="数据脱敏处理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="230" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="m0ehVY5J23Boe-fRRiXK-44" target="m0ehVY5J23Boe-fRRiXK-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-43" value="&lt;span&gt;&lt;font&gt;摆渡脱敏后的数据&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontStyle=1" vertex="1" connectable="0" parent="m0ehVY5J23Boe-fRRiXK-42">
+          <mxGeometry x="0.1" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-44" value="导出识别结果" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="m0ehVY5J23Boe-fRRiXK-46" target="m0ehVY5J23Boe-fRRiXK-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-46" value="将网址与页面截图进行匹配" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="230" y="526" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="m0ehVY5J23Boe-fRRiXK-48" target="m0ehVY5J23Boe-fRRiXK-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-48" value="整合链接与截图等信息生成excel" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="526" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="m0ehVY5J23Boe-fRRiXK-51" target="m0ehVY5J23Boe-fRRiXK-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="m0ehVY5J23Boe-fRRiXK-51" target="m0ehVY5J23Boe-fRRiXK-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-51" value="导入采集到的“翻墙”网址相关数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="m0ehVY5J23Boe-fRRiXK-54" target="m0ehVY5J23Boe-fRRiXK-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-53" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;摆渡“翻墙”网址&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m0ehVY5J23Boe-fRRiXK-52">
+          <mxGeometry x="-0.1667" y="-3" relative="1" as="geometry">
+            <mxPoint x="-3" y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-54" value="进一步人工判定哪些网址为涉“翻墙”网址" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="m0ehVY5J23Boe-fRRiXK-56" target="m0ehVY5J23Boe-fRRiXK-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-56" value="通过MQ发送给关联系统“翻墙”网站爬取结果" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-57" value="定期对爬取结果进行统计" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="550" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-58" value="导入采集到的原始短彩信数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="230" y="-40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ehVY5J23Boe-fRRiXK-59" value="流程结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="-40" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
