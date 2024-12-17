@@ -25,17 +25,32 @@
         <mxCell id="m1h7p15OTrPL5L8uefuT-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-26" target="m1h7p15OTrPL5L8uefuT-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-28" value="保存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m1h7p15OTrPL5L8uefuT-7">
+          <mxGeometry x="0.075" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="m1h7p15OTrPL5L8uefuT-8" value="识别图片中的图标" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="214" y="755" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m1h7p15OTrPL5L8uefuT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-10" target="m1h7p15OTrPL5L8uefuT-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-31" value="抽取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m1h7p15OTrPL5L8uefuT-9">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="m1h7p15OTrPL5L8uefuT-10" value="识别图片中的二维码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="354" y="755" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m1h7p15OTrPL5L8uefuT-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-24" target="m1h7p15OTrPL5L8uefuT-16">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-33" value="保存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m1h7p15OTrPL5L8uefuT-11">
+          <mxGeometry x="0.05" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="m1h7p15OTrPL5L8uefuT-12" value="识别图片中的文本信息" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="494" y="755" width="120" height="60" as="geometry" />
@@ -62,7 +77,7 @@
         <mxCell id="m1h7p15OTrPL5L8uefuT-18" value="将图标留存进信息库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="214" y="1035" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="m1h7p15OTrPL5L8uefuT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-20" target="m1h7p15OTrPL5L8uefuT-22">
+        <mxCell id="m1h7p15OTrPL5L8uefuT-19" value="识别" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-20" target="m1h7p15OTrPL5L8uefuT-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m1h7p15OTrPL5L8uefuT-20" value="二维码抽取算法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
@@ -70,6 +85,11 @@
         </mxCell>
         <mxCell id="m1h7p15OTrPL5L8uefuT-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-22" target="m1h7p15OTrPL5L8uefuT-14">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-29" value="保存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m1h7p15OTrPL5L8uefuT-21">
+          <mxGeometry x="0.1613" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-12" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="m1h7p15OTrPL5L8uefuT-22" value="二维码识别算法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="354" y="944" width="120" height="60" as="geometry" />
@@ -80,6 +100,11 @@
             <mxPoint x="554" y="1035" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-32" value="识别" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m1h7p15OTrPL5L8uefuT-23">
+          <mxGeometry x="-0.125" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="m1h7p15OTrPL5L8uefuT-24" value="OCR算法模型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="494" y="895" width="120" height="60" as="geometry" />
         </mxCell>
@@ -87,6 +112,11 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="274" y="815" as="sourcePoint" />
             <mxPoint x="274" y="1035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-27" value="识别" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m1h7p15OTrPL5L8uefuT-25">
+          <mxGeometry x="0.05" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="m1h7p15OTrPL5L8uefuT-26" value="图标识别算法模型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
