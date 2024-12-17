@@ -1,9 +1,97 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="NvVxSHjYFr5sHnuyQMM8">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="m1h7p15OTrPL5L8uefuT-1" value="图片信息抽取" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="214" y="655" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-5" target="m1h7p15OTrPL5L8uefuT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-5" target="m1h7p15OTrPL5L8uefuT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-5" target="m1h7p15OTrPL5L8uefuT-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-5" value="导入采集到的原始短彩信数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="354" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-6" value="流程结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="354" y="1164" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-26" target="m1h7p15OTrPL5L8uefuT-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-8" value="识别图片中的图标" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="214" y="755" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-10" target="m1h7p15OTrPL5L8uefuT-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-10" value="识别图片中的二维码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="354" y="755" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-24" target="m1h7p15OTrPL5L8uefuT-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-12" value="识别图片中的文本信息" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="494" y="755" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-14" target="m1h7p15OTrPL5L8uefuT-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="1155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-14" value="将二维码留存进信息库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="354" y="1035" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="1165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-16" value="文本信息抽取结果留存进信息库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="494" y="1035" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-18" target="m1h7p15OTrPL5L8uefuT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-18" value="将图标留存进信息库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="214" y="1035" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-20" target="m1h7p15OTrPL5L8uefuT-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-20" value="二维码抽取算法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="354" y="845" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-22" target="m1h7p15OTrPL5L8uefuT-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-22" value="二维码识别算法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="354" y="944" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-12" target="m1h7p15OTrPL5L8uefuT-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="554" y="815" as="sourcePoint" />
+            <mxPoint x="554" y="1035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-24" value="OCR算法模型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="494" y="895" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m1h7p15OTrPL5L8uefuT-8" target="m1h7p15OTrPL5L8uefuT-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="274" y="815" as="sourcePoint" />
+            <mxPoint x="274" y="1035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1h7p15OTrPL5L8uefuT-26" value="OCR算法模型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="214" y="895" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
