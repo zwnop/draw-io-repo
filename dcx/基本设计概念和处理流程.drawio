@@ -74,7 +74,7 @@
         <mxCell id="BCLAxjB97PcvfuDEVSwv-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" parent="1" source="BCLAxjB97PcvfuDEVSwv-28" target="BCLAxjB97PcvfuDEVSwv-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BCLAxjB97PcvfuDEVSwv-28" value="录入“翻墙”网址数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-28" value="导入采集到的“翻墙”网址相关数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="400" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BCLAxjB97PcvfuDEVSwv-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;fontStyle=1" parent="1" source="BCLAxjB97PcvfuDEVSwv-31" target="BCLAxjB97PcvfuDEVSwv-28" edge="1">
@@ -85,7 +85,7 @@
             <mxPoint x="-3" y="32" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BCLAxjB97PcvfuDEVSwv-31" value="判定哪些网址为涉“翻墙”网址" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="BCLAxjB97PcvfuDEVSwv-31" value="进一步人工判定哪些网址为涉“翻墙”网址" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="400" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BCLAxjB97PcvfuDEVSwv-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;fontStyle=1" parent="1" source="BCLAxjB97PcvfuDEVSwv-34" target="BCLAxjB97PcvfuDEVSwv-44" edge="1">
@@ -95,7 +95,7 @@
           <mxGeometry x="400" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BCLAxjB97PcvfuDEVSwv-39" value="定期对爬取结果进行统计" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="560" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BCLAxjB97PcvfuDEVSwv-43" value="导入采集到的原始短彩信数据" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="230" y="-40" width="120" height="60" as="geometry" />
