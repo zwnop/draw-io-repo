@@ -28,10 +28,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BCLAxjB97PcvfuDEVSwv-10" value="外网" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="50" y="431" width="60" height="30" as="geometry" />
+          <mxGeometry x="120" y="431" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BCLAxjB97PcvfuDEVSwv-11" value="内网" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="60" y="-30" width="60" height="30" as="geometry" />
+          <mxGeometry x="120" y="-30" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BCLAxjB97PcvfuDEVSwv-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" parent="1" source="BCLAxjB97PcvfuDEVSwv-13" target="BCLAxjB97PcvfuDEVSwv-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
