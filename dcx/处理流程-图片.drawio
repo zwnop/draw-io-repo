@@ -89,7 +89,7 @@
             <mxPoint x="274" y="1035" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m1h7p15OTrPL5L8uefuT-26" value="OCR算法模型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="m1h7p15OTrPL5L8uefuT-26" value="图标识别算法模型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="214" y="895" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
